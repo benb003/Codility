@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
+        OddOccurrencesInArray odd = new OddOccurrencesInArray();
 
+        System.out.println(odd.solution(new int[]{1, 1, 2, 2, 3}));
 
 
     }
